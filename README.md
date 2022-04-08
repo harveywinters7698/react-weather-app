@@ -1,3 +1,6 @@
+# Description
+- A weather app built with React and OpenWeather for this [YouTube Tutorial](https://www.youtube.com/watch?v=I_7CIw_tIG0)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
