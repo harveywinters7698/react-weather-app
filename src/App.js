@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { AppShell, Header, Text } from "@mantine/core";
 
+import WeatherApp from "./components/WeatherApp";
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppShell
+      fixed
+      header={
+        <Header height={50} p="md">
+          <div style={{
+            display: "flex",
+            alignItems: "center",
+            height: "100%"
+          }}>
+            <Text>
+              Weather App
+            </Text>
+          </div>
+        </Header>
+      }
+      > 
+        <WeatherApp />
+      </AppShell>
   );
 }
 
