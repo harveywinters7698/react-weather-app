@@ -1,5 +1,9 @@
 # Description
-- A weather app built with React and OpenWeather for this [YouTube Tutorial](https://www.youtube.com/watch?v=I_7CIw_tIG0)
+A weather app built with React and OpenWeather for this [YouTube Tutorial](https://www.youtube.com/watch?v=I_7CIw_tIG0)
+
+<img src="./thumbnail.png" width="320" height="180" />
+
+<br />
 
 # Getting Started with Create React App
 
